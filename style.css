@@ -106,7 +106,7 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	background: rgba(57,61,72,0.80) url('overlay.png') repeat;
+	background: rgba(43, 78, 65, 0.53) url('overlay.png') repeat
 }
 
 .intro * {
@@ -341,7 +341,7 @@ body {
 		}
 
 		.participation p:last-child {
-			border-radius: 0 0 .3rem .3rem;
+			border-radius: 0 0 0 .3rem;
 			padding-bottom: 10px;
 			box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
 			border-bottom: 1px solid rgba(34,36,38,.15);

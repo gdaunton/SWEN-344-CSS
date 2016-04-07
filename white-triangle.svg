@@ -2,10 +2,10 @@
 	<defs>
 		<style>
       .cls-1 {
-        fill: #E0E0E0;
+        fill: #E6E6E6;
         fill-rule: evenodd;
       }
     </style>
 	</defs>
-	<path style="fill:#ccc;fill-rule:evenodd" d="m0-1.2276 982.45 251.84 17.55-251.84z" class="cls-1"/>
+	<path d="m0-1.2276 982.45 251.84 17.55-251.84z" class="cls-1"/>
 </svg>
