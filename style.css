@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Bazar;
+    src: url(Bazar.ttf);
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.page-wrapper {
+	height: 100%;
+}
+
+.intro {
+	height: 100%;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.intro:after {
+	content: ' ';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-image: url('overlay.png');
+	background: rgba(57,61,72,0.80);
+}
+
+.intro * {
+	z-index: 2;
+	position: relative;
+}
+
+.intro header {
+	position: absolute;
+	text-align: center;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+	.intro header h1 {
+		white-space: nowrap;
+		margin: 0;
+		padding: .25em 1em;
+		font-size: 7em;
+		letter-spacing: .05em;
+		font-family: Bazar;
+		color: #FFE27A;
+		text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+	}
+
+	.intro header h1:after {
+		content: ' ';
+		height: 30px;
+		width: 67px;
+		position: absolute;
+		bottom: -2px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+		background: url('icons.png') no-repeat;
+	}
+
+	.intro header h2 {
+		color:#FFFCE4;
+		letter-spacing: .05em;
+		font-size: 25px;
+		font-style: italic;
+		font-family: "Lucida Console", Monaco, monospace;
+	}
+
+	.intro .summary {
+		letter-spacing: -7.75px;
+		width: 0px;
+		height: 30px;
+		white-space: nowrap;
+		position: fixed;
+		color: #fff;
+		padding: 5px;
+		padding-left: 40px;
+		border-radius: 25px;
+		left: 0;
+		top: 0;
+		font-size: 13px;
+		margin-left: 10px;
+		margin-top: .5em;
+		background: #888;
+		transition: width .5s ease, letter-spacing .5s ease;
+	}
+
+	.intro .summary:hover {
+		letter-spacing: .005em;
+		width: 850px;
+	}
+
+	.intro .summary p {
+		opacity: 0;
+		margin-left:10px;
+		transition:	opacity .5s ease;
+	}
+
+	.intro .summary:hover p {
+		opacity: 1;
+	}
+
+	.intro .summary * {
+		margin: 0;
+	}
+
+	.intro .summary a {
+		text-decoration: none;
+	}
+
+	.intro .summary:before {
+		content: ' ';
+		background: url('info_icon.png');
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		left: 7.5px;
+		top: 50%;
+		transform: translateY(-50%);
+		background-size: contain;
+	}
