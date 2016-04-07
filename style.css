@@ -202,12 +202,13 @@ body {
 			height: 381px;
 			z-index: -1;
 			bottom: 0;
+			border-radius: .3rem .3rem 0 0;
 		}
 
 		.main.supporting .explanation p:nth-child(2) {
 			position: relative;
 			background: #fff;
-			margin-top: 15em;
+			margin-top: 14.75em;
 			margin-bottom: 0;
 			padding: 1em;
 			border-radius: .28571429rem .28571429rem 0 0;
