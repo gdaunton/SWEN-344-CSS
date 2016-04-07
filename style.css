@@ -54,12 +54,13 @@ body {
 	top:50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+  max-width: 100%;
 }
 
 	.intro header h1 {
 		white-space: nowrap;
 		margin: 0;
-		padding: .25em 1em;
+		padding: .25em 0;
 		font-size: 7em;
 		letter-spacing: .05em;
 		font-family: Bazar;
@@ -150,7 +151,7 @@ body {
 		margin: 0 10%;
 	}
 
-	.main.supporting .explanation h3:first-child:before{
+	.main.supporting .explanation h3:first-child:before, .participation h3:before {
 		position: absolute;
 		content: ' ';
 		height: 2em;
@@ -161,7 +162,7 @@ body {
 		z-index: -1;
 	}
 
-	.main.supporting .explanation h3:first-child:after{
+	.main.supporting .explanation h3:first-child:after, .participation h3:after {
 		position: absolute;
 		content: ' ';
 		height: 2em;
@@ -178,7 +179,7 @@ body {
 		z-index: -1;
 	}
 
-		.main.supporting .explanation h3:first-child {
+		.main.supporting .explanation h3:first-child, .participation h3 {
 			position: relative;
 			background: #2F3A46;
 			left: 50%;
@@ -225,6 +226,10 @@ body {
 			z-index: 2;
 		}
 
-		.main.supporting .explanation p:nth-child(2) img {
+		.text {
 			display: none;
 		}
+
+    .participation {
+      
+    }

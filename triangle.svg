@@ -2,10 +2,10 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #2F3A46;
+        fill: #2f3a46;
         fill-rule: evenodd;
       }
     </style>
   </defs>
-  <path class="cls-1" d="M500,0V250H0Zm0,0V250h500Z"/>
+  <path class="cls-1" d="M0,250L500,0l500,250H0Z"/>
 </svg>
