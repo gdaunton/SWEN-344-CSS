@@ -329,3 +329,55 @@ body {
 
 		.participation p:last-child:before {
 		}
+
+    .sidebar {
+      display: -webkit-inline-box;
+      position: absolute;
+      right: 10em;
+      top: calc(100% + 1em);
+      z-index: 4;
+    }
+
+    .resources h3 {
+      visibility: hidden;
+    }
+
+    .resources h3::before {
+      content: 'More H.G. Wells:';
+      position: absolute;
+      left: 0;
+      top: 15px;
+      font-size: 20px;
+      visibility: visible;
+    }
+
+    .resources ul {
+      list-style: none;
+      text-align: right;
+    }
+
+    .resources ul li a {
+      text-decoration: none;
+      color: #f9690e;
+    }
+
+    .resources ul li a:hover {
+      color: #eb9532;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      height: 4em;
+      padding-top: 1.5em;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #f9690e;
+    }
+
+    footer a:hover {
+      color: #eb9532;
+      cursor: pointer;
+    }
